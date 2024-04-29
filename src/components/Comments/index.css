@@ -1,0 +1,101 @@
+/* Write your CSS here */
+
+.app-container {
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header {
+  font-size: 50px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.content-container {
+  display: flex;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 80px;
+}
+
+.form-text {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.input-text {
+  border-radius: 5px;
+  border: 1px solid #dee0e3;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #1e293b;
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.input-form {
+  border-radius: 5px;
+  border: 1px solid #dee0e3;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #1e293b;
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button-style {
+  background-color: #0284c7;
+  width: 100px;
+  height: 30px;
+  color: #cbd2d9;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.bg-image {
+  width: 260px;
+  height: 200px;
+}
+
+.hr-line {
+  color: #94a3b8;
+  width: 100%;
+}
+
+.comment-header {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.comment-counter {
+  background-color: #0b69ff;
+  border-radius: 4px;
+  padding: 8px;
+  color: #cbd2d9;
+  font-family: 'Roboto';
+}
